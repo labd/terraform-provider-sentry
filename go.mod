@@ -1,6 +1,6 @@
 module github.com/labd/terraform-provider-sentry
 
-go 1.25.0
+go 1.27
 
 replace github.com/jianyuan/go-sentry/v2 => github.com/labd/go-sentry/v2 v2.0.0-20230705221521-60726b2c7649
 
