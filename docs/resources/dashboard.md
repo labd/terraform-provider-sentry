@@ -381,7 +381,7 @@ Optional:
 
 Read-Only:
 
-- `id` (String) The ID of this resource.
+- `id` (String)
 
 <a id="nestedblock--widget--layout"></a>
 ### Nested Schema for `widget.layout`
@@ -410,6 +410,4 @@ Optional:
 
 Read-Only:
 
-- `id` (String) The ID of this resource.
-
-
+- `id` (String)

@@ -60,5 +60,3 @@ resource "sentry_issue_alert" "copy" {
 - `frequency` (Number) Perform actions at most once every `X` minutes for this issue. Defaults to `30`.
 - `id` (String) The ID of this resource.
 - `name` (String) The issue alert name.
-
-
