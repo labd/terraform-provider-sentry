@@ -3,7 +3,7 @@
 page_title: "sentry_rule Resource - terraform-provider-sentry"
 subcategory: ""
 description: |-
-  WARNING: This resource is deprecated and will be removed in the next major version. Use the sentry_issue_alert resource instead.
+  **WARNING:** This resource is deprecated and will be removed in the next major version. Use the `sentry_issue_alert` resource instead.
 ---
 
 # sentry_rule (Resource)
@@ -36,5 +36,3 @@ description: |-
 - `id` (String) The ID of this resource.
 - `internal_id` (String) The internal ID for this issue alert.
 - `projects` (List of String, Deprecated) Use `project` (singular) instead.
-
-

@@ -104,7 +104,7 @@ Optional:
 
 Read-Only:
 
-- `id` (String) The ID of this resource.
+- `id` (String)
 
 <a id="nestedblock--trigger--action"></a>
 ### Nested Schema for `trigger.action`
@@ -121,11 +121,13 @@ Optional:
 
 Read-Only:
 
-- `id` (String) The ID of this resource.
+- `id` (String)
 
 ## Import
 
 Import is supported using the following syntax:
+
+The [`terraform import` command](https://developer.hashicorp.com/terraform/cli/commands/import) can be used, for example:
 
 ```shell
 # import using the organization, project slugs and rule id from the URL:

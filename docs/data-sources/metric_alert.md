@@ -101,5 +101,3 @@ Read-Only:
 - `target_identifier` (String)
 - `target_type` (String)
 - `type` (String)
-
-
